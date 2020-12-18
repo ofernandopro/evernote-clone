@@ -1,12 +1,25 @@
 @import "./custom_colors";
 
-.notes{
-  height: calc(100% - 70px);
-  margin-left: 0px;
-  margin-top: 0px
-​}
-
 .bm-menu {
   background: white;
-  padding-top: 10px;
+  padding: 10px 20px;
+}
+
+.list-item .is-active {
+  background-color: #cccccc;
+}
+
+.notes {
+  height: calc(100% - 70px);
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px
+​}
+
+.notes-editor{
+  padding: 0;
+  height: calc(100% - 43px);
+  .quill{
+    height: 100%;
+  }
 }
