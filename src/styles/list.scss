@@ -1,0 +1,37 @@
+@import './custom_colors';
+
+.notes-list{
+  padding: 0px;
+}
+
+.date-tag{
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.notes-list-single{
+  padding: 10% 4% 1% 4%;
+  width: 100%;
+}
+
+.notes-list-single:hover{
+  background-color: $custom-grey;
+}
+
+.remove-icon{
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+.date-tag-single h2{
+  color: $custom-grey-medium;
+}
+
+.notes-list hr{
+  width: 80%;
+  margin: auto;
+}
+
+.white-space{
+  height: 100px;
+}

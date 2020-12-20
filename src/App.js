@@ -4,10 +4,9 @@ import './App.scss';
 import Routes from './routes';
 
 const App = () => (
-    <Fragment>
-        <Routes />
-    </Fragment>
+  <Fragment>
+    <Routes/>
+  </Fragment>
 )
 
 export default App;
-

@@ -2,11 +2,17 @@
 
 nav.navbar {
   height: 70px;
-
-  .navbar-brand {
+  
+  .navbar-brand {  
     img {
       height: 40px;
       margin-top:15px;
     }
+  }
+}
+
+.navbar-logged{
+  .navbar-menu{
+    background-color: $custom-purple;
   }
 }
